@@ -1,0 +1,22 @@
+Link to Paper:
+https://www.nature.com/articles/s41592-022-01663-4
+
+###Abstract:
+
+Pretrained neural network models for biological segmentation can provide good out-of-the-box results for many image types. 
+However, such models do not allow users to adapt the segmentation style to their specific needs and can perform suboptimally for test images
+that are very different from the training images. Here we introduce Cellpose 2.0, a new package that includes an ensemble of diverse pretrained 
+models as well as a human-in-the-loop pipeline for rapid prototyping of new custom models. We show that models pretrained on the Cellpose dataset 
+can be fine-tuned with only 500–1,000 user-annotated regions of interest (ROI) to perform nearly as well as models trained on entire datasets with up to 200,000 ROI.
+A human-in-the-loop approach further reduced the required user annotation to 100–200 ROI, while maintaining high-quality segmentations. 
+We provide software tools such as an annotation graphical user interface, a model zoo and a human-in-the-loop pipeline to facilitate 
+the adoption of Cellpose 2.0.
+
+###Main
+Biological cell images vary extensively due to diverse microscopy techniques, tissue types, and labeling methods. 
+Automated segmentation methods struggle with this diversity, often failing when applied to new types of data.
+While high-performance segmentation methods exist, they rely on large training datasets and neural networks,
+facing challenges in generalizing to out-of-distribution data. Addressing this, the study explores adapting 
+neural network segmentation models to new image categories with minimal training data. The developed approach proves 
+necessary, efficient, and effective, accommodating varied annotation styles and achieving accuracy similar to human experts.
+The study utilizes large-scale datasets, Cellpose, and a model zoo, providing a user-friendly human-in-the-loop pipeline for rapid model adaptation.
