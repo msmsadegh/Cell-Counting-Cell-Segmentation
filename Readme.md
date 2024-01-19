@@ -1,8 +1,6 @@
 Cellpose
 Report:
 
-### Day One:
-
 #### Steps:
 
 0) Handle the error about generating HTML and write it to PDF.
@@ -77,9 +75,9 @@ Report:
 
 
 3) Here is 3 random images with different results and evaluations
-![alt 1](https://github.com/msmsadegh/cellpose/blob/main/images/download%20(2).png)
-![alt 2](https://github.com/msmsadegh/cellpose/blob/main/images/download%20(1).png)
-![alt 3](https://github.com/msmsadegh/cellpose/blob/main/images/download.png)
+![alt 1](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/sample_one/download%20(2).png)
+![alt 2](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/sample_one/download%20(1).png)
+![alt 3](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/sample_one/download.png)
 
 
 ## Bugs:
