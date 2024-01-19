@@ -96,7 +96,7 @@
 ## Bugs:
 
 Bugs for training the model
-![alt 1](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/3.png)
+![alt 1](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/bug1.png)
 
 
 
