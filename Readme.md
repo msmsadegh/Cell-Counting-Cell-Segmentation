@@ -1,17 +1,24 @@
-Cellpose
-Report:
+**Cellpose Report:**
 
 #### Steps:
 
-0) Handle the error about generating HTML and write it to PDF.
-1) Try to run the previous code and create a model based on the previous dataset
-2) Commit and Push the codes to GitHub in a new organization and new branches
-3) Upload the new dataset for the test section and try to measure the model on a new data set
-
+0) Handle the error related to generating HTML and save it as a PDF.
+1) Attempt to execute the previous code and create a model based on the previous dataset.
+2) Commit and push the codes to GitHub in a new organization and new branches.
+3) Upload the new dataset.
+4) Perform some preprocessing steps on the new dataset:
+   1) Organize the dataset into three separate parts.
+      1) Parvalabumin Positive Interneurons (Green Cells) => pv_ab
+      2) Neuron Nuclei (Orange Tiny Spots) => nuclei
+      3) GABAergic Cells (Red Cells) => gabaergic
+   2) Define channels for each one.
+   3) Generate masks for each category.
+   4) With an 80% split for training and a 20% split for testing, separate each of the three.
 
 #### Results:
-1) First try and first result with just 3 images:
-   
+
+1) Initial attempt and the first result with just three images:
+2) 
 |   | Image           | Prediction v. GT IoU | FP | TP | FN | Precision | Recall | Accuracy | F1 |
 |---|------------------|------------------------|----|----|----|-----------|--------|----------|----|
 | 0 | cb13cb5f85.png   | 0                      | 0  | 0  | 2  | 0         | 0      | 0        | 0  |
@@ -74,14 +81,22 @@ Report:
 |  49 | 7c5501d292.png | 0                      | 1  | 0  | 9  | 0         | 0        | 0        | 0         |
 
 
-3) Here is 3 random images with different results and evaluations
+**3) Here are three random images with different results and evaluations:**
 ![alt 1](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/sample_one/download%20(2).png)
 ![alt 2](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/sample_one/download%20(1).png)
 ![alt 3](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/sample_one/download.png)
 
+**4) Three random images of Parvalbumin after using the trained model's channel:**
+![alt 1](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/1.png)
+![alt 1](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/2.png)
+![alt 1](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/3.png)
+
+
 
 ## Bugs:
-1) 
+
+Bugs for training the model
+![alt 1](https://github.com/msmsadegh/cellpose/blob/main/dataset/sample/3.png)
 
 
 
